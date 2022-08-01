@@ -1,0 +1,35 @@
+body{
+    overflow: scroll;
+}
+
+#gameBoard{
+    width: 360px;
+    height: 360px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+   width: 120px;
+   height: 120px;
+   outline: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   background-color: white;
+}
+
+.container {
+ display:flex;
+ flex-direction:column;
+ justify-content: center;
+ align-items: center;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    font-size:x-large;
+}
